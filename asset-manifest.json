@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/CheckPoint/static/css/main.ecd67f51.css",
+    "main.js": "/CheckPoint/static/js/main.907cd47c.js",
+    "static/js/787.e332589f.chunk.js": "/CheckPoint/static/js/787.e332589f.chunk.js",
+    "index.html": "/CheckPoint/index.html",
+    "main.ecd67f51.css.map": "/CheckPoint/static/css/main.ecd67f51.css.map",
+    "main.907cd47c.js.map": "/CheckPoint/static/js/main.907cd47c.js.map",
+    "787.e332589f.chunk.js.map": "/CheckPoint/static/js/787.e332589f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ecd67f51.css",
+    "static/js/main.907cd47c.js"
+  ]
+}
