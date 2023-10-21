@@ -1,38 +1,217 @@
-.App {
+*{
+  margin: 0;
+}
+.navigation{
+  color: rgb(60, 60, 60);
+  margin: 0 auto;
+  width: 100%;
+  background-color: rgba(99, 99, 99, 0.547);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+.logo{
+  font-size: 50px;
+
+  text-decoration: solid;
+}
+.button23div{
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 70px;
+}
+.button23{
+  background-color: rgba(99, 99, 99, 0.547);
+  color: rgb(60, 60, 60);
+  width: 200px;
+  height: 70px;
+  border-radius: 20px;
+  transition:   width 0.3s;
+  font-size: 30px;
+}
+.button23:hover{
+
+  height: 75px;
+width: 210px;
+}
+.ofButton{
+  color: rgb(60, 60, 60) ;
+  display: flex;
+  justify-content: center;
+}
+.cash{
+  color: rgb(60, 60, 60) ;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.container{
+  color: rgb(60, 60, 60);
+justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+.calendar{
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: 10px;
+  width: 350px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+
+}
+.h1-center{
+  font-size: 40px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.elem{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  width: 50px;
+
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+
+.january:nth-child(4n+1){
+  background-color: brown;
+}
+.january:nth-child(4n+2){
+  background-color: rgb(0, 119, 170);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.january:nth-child(4n+3){
+  background-color: rgb(241, 210, 13);
+}
+
+
+.february:nth-child(4n+2){
+  background-color: rgb(0, 119, 170);
+
+}
+.february:nth-child(4n+1){
+  background-color: brown;
+}
+
+.february:nth-child(4n+3){
+  background-color: rgb(241, 210, 13);
+}
+
+.march:nth-child(4n+2){
+  background-color: brown;
+}
+.march:nth-child(4n+1){
+  background-color: rgb(0, 119, 170);
+}
+.march:nth-child(4n){
+  background-color: rgb(241, 210, 13);
+}
+
+.april:nth-child(4n+2){
+  background-color: rgb(0, 119, 170);
+}
+.april:nth-child(4n+1){
+  background-color: brown;
+}
+.april:nth-child(4n+3){
+  background-color: rgb(241, 210, 13);
+}
+
+.may:nth-child(4n+2){
+  background-color: brown;
+}
+.may:nth-child(4n+3){
+  background-color: rgb(0, 119, 170);
+}
+.may:nth-child(4n){
+  background-color: rgb(241, 210, 13);
+}
+
+.june:nth-child(4n+2){
+  background-color: brown;
+}
+.june:nth-child(4n+3){
+  background-color: rgb(0, 119, 170);
+}
+.june:nth-child(4n){
+  background-color: rgb(241, 210, 13);
+}
+
+.july:nth-child(4n+3){
+  background-color: brown;
+}
+.july:nth-child(4n){
+  background-color: rgb(0, 119, 170);
+}
+.july:nth-child(4n+1){
+  background-color: rgb(241, 210, 13);
+}
+
+.august:nth-child(4n+3){
+  background-color: brown;
+}
+.august:nth-child(4n){
+  background-color: rgb(0, 119, 170);
+}
+.august:nth-child(4n+1){
+  background-color: rgb(241, 210, 13);
+}
+
+.september:nth-child(4n+3){
+  background-color: brown;
+}
+.september:nth-child(4n){
+  background-color: rgb(0, 119, 170);
+}
+.september:nth-child(4n+1){
+  background-color: rgb(241, 210, 13);
+}
+
+.october:nth-child(4n){
+  background-color: brown;
+}
+.october:nth-child(4n+1){
+  background-color: rgb(0, 119, 170);
+}
+.october:nth-child(4n+2){
+  background-color: rgb(241, 210, 13);
+}
+
+.november:nth-child(4n){
+  background-color: brown;
+}
+.november:nth-child(4n+1){
+  background-color: rgb(0, 119, 170);
+}
+.november:nth-child(4n+2){
+  background-color: rgb(241, 210, 13);
+}
+
+.december:nth-child(4n){
+  background-color: brown;
+}
+.december:nth-child(4n+1){
+  background-color: rgb(0, 119, 170);
+}
+.december:nth-child(4n+2){
+  background-color: rgb(241, 210, 13);
+}
+
+
+.elem:hover{
+  background-color: rgb(91, 91, 91);
 }
