@@ -18,6 +18,18 @@
 
   text-decoration: solid;
 }
+.red{
+  color: brown;
+}
+.white{
+  color: #fff;
+}
+.yellow{
+  color:rgb(241, 210, 13);
+}
+.blue{
+  color:rgb(0, 119, 170);
+}
 .button23div{
   background-color: rgb(255, 255, 255);
   text-align: center;
@@ -44,13 +56,7 @@ width: 210px;
   display: flex;
   justify-content: center;
 }
-.cash{
-  color: rgb(60, 60, 60) ;
-  display: flex;
-  justify-content: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
+
 .container{
   color: rgb(60, 60, 60);
 justify-content: center;

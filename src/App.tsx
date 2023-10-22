@@ -49,10 +49,10 @@ function App() {
     <>
       <div className='navigation'>
         <div>
-          <h1>Артем</h1>
-          <h1>Ден</h1>
-          <h1>Рамис</h1>
-          <h1>Алексей</h1>
+          <h1 className='blue'>Артем</h1>
+          <h1 className='yellow'>Ден</h1>
+          <h1 className='white'>Рамис</h1>
+          <h1 className='red'>Алексей</h1>
         </div>
         <div className='logo'><strong>CheckPoint</strong></div>
       </div>
@@ -165,17 +165,6 @@ function App() {
           </h2>
         </div>
       }
-      <div className='cash'>
-        Список зарплаты полученной за каждый месяц 2023 года:
-        <ul>
-          <li>
-            44000 c
-          </li>
-          <li>
-            35000 с
-          </li>
-        </ul>
-      </div>
     </>
   );
 }
